@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+service NotaService {
+    rpc CalcularNota (NotaRequest) returns (NotaResponse);
+}
+
+message NotaRequest {
+    double nota1 = 1;
+    double nota2 = 2;
+}
+
+message NotaResponse {
+    double media = 1;
+    bool aprovado = 2;
+    bool reprovado = 3;
+    double nota_final_necessaria = 4;
+}
