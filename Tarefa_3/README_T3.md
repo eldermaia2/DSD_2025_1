@@ -92,4 +92,3 @@ Nota necessária na final: 7.20
 | **Situação Inicial** | `Média ≥ 6.0 → Aprovado`<br>`Média < 6.0 → Prova Final` | - |
 | **Nota Necessária na Final** | `max(0, 12 - Média Parcial)` | - |
 | **Reprovação Direta** | - | `Nota Necessária > 10.0 → Reprovado` |
-
