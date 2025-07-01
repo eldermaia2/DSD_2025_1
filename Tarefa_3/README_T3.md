@@ -86,8 +86,9 @@ Nota necessária na final: 7.20
 
 ### Fórmulas de Cálculo
 
-| Descrição | Fórmula | Exemplo |
-|-----------|---------|---------|
-| **Média Parcial** | `(nota1 × 2 + nota2 × 3) / 5` | (5.0×2 + 6.0×3)/5 = 5.6 |
-| **Situação do Aluno** | `Média ≥ 6.0 → Aprovado`<br>`Média < 6.0 → Prova Final` | 5.6 → Prova Final |
-| **Nota Necessária na Final** | `max(0, 12 - Média Parcial)` | 12 - 5.6 = 6.4 |
+| Descrição | Fórmula | Condição |
+|-----------|---------|----------|
+| **Média Parcial** | `(nota1 × 2 + nota2 × 3) / 5` | - |
+| **Situação Inicial** | `Média ≥ 6.0 → Aprovado`<br>`Média < 6.0 → Prova Final` | - |
+| **Nota Necessária na Final** | `max(0, 12 - Média Parcial)` | - |
+| **Reprovação Direta** | - | `Nota Necessária > 10.0 → Reprovado` |
