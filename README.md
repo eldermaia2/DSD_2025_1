@@ -5,4 +5,4 @@ Tema do Seminario: Projeto e implementação de protótipo de smart plug em auto
 - [Tarefa_2](./Tarefa_2/README_T2.md)\
 Conversor de moedas com UDP e TCP.
 - [Tarefa_3](./Tarefa_3/README_T3.md)\
-Serviço de Cálculo de Notas IFRN com gRPC.
+Calculadora de notas semestrais Utilizando gRPC.
