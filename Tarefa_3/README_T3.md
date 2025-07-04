@@ -4,7 +4,7 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
 
-Este projeto implementa um sistema distribuído para cálculo de notas de alunos do IFRN usando gRPC para comunicação entre serviços em Python (servidor) e Node.js (cliente).
+Este projeto implementa um sistema distribuído para cálculo de notas de alunos usando gRPC para comunicação entre serviços em Python (servidor) e Node.js (cliente).
 
 ## 📋 Funcionalidades
 
