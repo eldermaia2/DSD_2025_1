@@ -1,4 +1,4 @@
-# Serviço de Cálculo de Notas IFRN com gRPC
+# Calculadora de notas semestrais Utilizando gRPC
 
 ![gRPC](https://img.shields.io/badge/gRPC-1.2.0-blue)
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
