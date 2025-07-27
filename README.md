@@ -6,3 +6,5 @@ Tema do Seminario: Projeto e implementação de protótipo de smart plug em auto
 Conversor de moedas com UDP e TCP.
 - [Tarefa_3](./Tarefa_3/README_T3.md)\
 Calculadora de notas semestrais Utilizando gRPC.
+- [Tarefa_4](./Tarefa_3/README_T4.md)\
+Calculadora com integração de APIs REST e SOAP com API Gateway.

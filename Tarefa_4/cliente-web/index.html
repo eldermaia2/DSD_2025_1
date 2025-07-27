@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head><title>Notas IFRN</title></head>
+<body>
+  <h1>Notas IFRN</h1>
+  <form id="form">
+    Nota 1: <input type="number" id="nota1"><br>
+    Nota 2: <input type="number" id="nota2"><br>
+    <button type="submit">Enviar</button>
+  </form>
+  <pre id="resultado"></pre>
+  <script>
+    document.getElementById('form').addEventListener('submit', async e => {
+      e.preventDefault();
+      const nota1 = parseFloat(document.getElementById('nota1').value);
+      const nota2 = parseFloat(document.getElementById('nota2').value);
+      const res = await fetch('http://localhost:3000/notas', {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({ nota1, nota2 })
+      });
+      const data = await res.json();
+      document.getElementById('resultado').textContent = JSON.stringify(data, null, 2);
+    });
+  </script>
+</body>
+</html>
