@@ -62,7 +62,6 @@ python app.py
 ```bash
 cd api-gateway
 npm install
-npm install cors
 node index.js
 ```
 
