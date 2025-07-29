@@ -8,6 +8,6 @@ Conversor de moedas com UDP e TCP.
 Calculadora de notas semestrais Utilizando gRPC.
 - [Tarefa_4](./Tarefa_4/README_T4.md)\
 Calculadora com integração de APIs REST e SOAP com API Gateway.
-- [Tarefa_4](./Tarefa_5/README_T5.md)\
+- [Tarefa_5](./Tarefa_5/README_T5.md)\
 Este projeto implementa uma arquitetura simples utilizando **RabbitMQ** como *Message Broker*.  
 Ele simula o envio e processamento de notas de alunos, seguindo as regras do **IFRN**.
