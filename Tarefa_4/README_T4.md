@@ -1,9 +1,9 @@
 # Integração de APIs REST e SOAP com API Gateway
-
+<!--
 ![Node.js](https://img.shields.io/badge/Node.js-18%2B-green)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![Vue.js](https://img.shields.io/badge/Vue-3-green)
-![Arquitetura](https://img.shields.io/badge/REST%2FSOAP-Gateway-blue)
+![Arquitetura](https://img.shields.io/badge/REST%2FSOAP-Gateway-blue)-->
 
 Este projeto demonstra a integração de serviços REST e SOAP utilizando um **API Gateway** desenvolvido com Node.js, além de um cliente web feito em Vue.js.
 
@@ -15,13 +15,37 @@ Construir uma arquitetura distribuída que integra diferentes estilos de API (RE
 
 ```
 grpc-ifrn-integrado/
-├── api-gateway/          # Gateway entre REST e SOAP
+├── api-gateway/          # Gateway (Node.js)
+│   ├── index.html
+│   ├── index.js
+│   ├── package-lock.json
+│   ├── package.json
 ├── cliente-web/          # Cliente Web simples (HTML + JS)
+│   ├── index.html
 ├── frontend-ifrn/        # Frontend moderno (Vue.js)
+│   ├── .gitignore
+│   ├── README.md
+│   ├── index.html
+│   ├── package-lock.json
+│   ├── package.json
+│   ├── vite.config.js
+│   ├── .vscode/
+│   │   ├── extensions.json
+│   ├── public/
+│   │   ├── vite.svg
+│   ├── src/
+│   │   ├── App.vue
+│   │   ├── main.js
+│   │   ├── style.css
+│   │   ├── assets/
+│   │   │   ├── vue.svg
+│   │   ├── components/
+│   │   │   ├── HelloWorld.vue
 ├── rest-media/           # API REST (Python Flask)
+│   ├── app.py
 ├── soap-final/           # Servidor SOAP (Python + Spyne)
+│   ├── servidor.py
 ```
-
 ## 🛠️ Tecnologias Utilizadas
 
 - **Node.js** – API Gateway
