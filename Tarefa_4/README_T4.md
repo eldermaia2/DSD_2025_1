@@ -70,6 +70,7 @@ grpc-ifrn-integrado/
 ```bash
 cd soap-final
 pip install spyne
+pip install lxml
 python servidor.py
 ```
 
